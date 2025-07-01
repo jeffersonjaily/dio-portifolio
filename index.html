@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jefferson Félix | Portfólio ADS & Dev</title>
+  <meta name="description" content="Portfólio de Jefferson Félix, desenvolvedor em formação com foco em Flask, Python, jogos e IA.">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item"><a class="menu__link active" href="#home"><span class="menu__text">Home</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="#projetos"><span class="menu__text">Projetos</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="#sobre"><span class="menu__text">Sobre</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="#contato"><span class="menu__text">Contato</span></a></li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home"><img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo Jefferson Félix"></a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento Fullstack</h1>
+      <p>Jefferson Félix, São Paulo - SP. Estudante de ADS, desenvolvedor Flask e criador de jogos 2D com Pygame.</p>
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/jeffersonjaily" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/jefferson-jaily-felix/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/jefferson.jfelix/" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="mailto:jeffersson.jaily@gmail.com">
+            <i class="menu__icon bi bi-envelope"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>
+      </a>
+    </div>
+    <div class="main__content2">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimentos em tecnologias modernas</h2>
+    <ul class="technologies__list">
+      <li><img src="assets/images/technologies/python-svgrepo-com.svg" alt="Python" class="technologies__logo"></li>
+      <li><img src="assets/images/technologies/javascript-svgrepo-com.svg" alt="JavaScript" class="technologies__logo"></li>
+      <li><img src="assets/images/technologies/html-5-svgrepo-com.svg" alt="HTML5" class="technologies__logo"></li>
+      <li><img src="assets/images/technologies/css-3-svgrepo-com.svg" alt="CSS3" class="technologies__logo"></li>
+    </ul>
+  </section>
+<section id="projetos" class="projects">
+  <h2>Projetos</h2>
+  <div class="projects__container">
+
+    <div class="projects__card">
+      <img class="card__cover" src="assets/images/projects/yugioh.jpg" alt="Projeto Yu-Gi-Oh! DIO" />
+      <div class="card__body">
+        <h3 class="card__title">Yu-Gi-Oh! DIO</h3>
+        <p class="card__description">Jogo de cartas online inspirado no Yu-Gi-Oh, com lógica e IA.</p>
+        <div class="card__buttons">
+          <a href="https://jeffersonjaily.github.io/Yu-Gi-Oh--DIO/" target="_blank" class="btn btn--primary">
+            <span>Ver Online</span>
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+          <a href="https://github.com/jeffersonjaily/Yu-Gi-Oh--DIO" target="_blank" class="btn">
+            <span>Repositório</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects__card">
+      <img class="card__cover" src="assets/images/projects/Ralph_8-bits.jpg" alt="Projeto Detona Ralph" />
+      <div class="card__body">
+        <h3 class="card__title">Detona Ralph</h3>
+        <p class="card__description">Jogo de plataforma desenvolvido em JavaScript no desafio DIO.</p>
+        <div class="card__buttons">
+          <a href="https://jeffersonjaily.github.io/desafio_dio_detona_raph/templates/index.html" target="_blank" class="btn btn--primary">
+            <span>Ver Online</span>
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+          <a href="https://github.com/jeffersonjaily/desafio_dio_detona_raph" target="_blank" class="btn">
+            <span>Repositório</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects__card">
+      <img class="card__cover" src="assets/images/projects/jogo_memoria.jpg" alt="Projeto Jogo Memória" />
+      <div class="card__body">
+        <h3 class="card__title">Jogo Memória</h3>
+        <p class="card__description">Jogo da memória desenvolvido em Python com Pygame.</p>
+        <div class="card__buttons">
+          <a href="https://github.com/jeffersonjaily/jogo_memoria" target="_blank" class="btn btn--primary">
+            <span>Repositório</span>
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects__card">
+      <img class="card__cover" src="assets/images/projects/jogos_passatempo.jpg" alt="Jogos Passatempo" />
+      <div class="card__body">
+        <h3 class="card__title">Jogos Passatempo</h3>
+        <p class="card__description">Coleção de jogos simples em JavaScript para diversão e aprendizado.</p>
+        <div class="card__buttons">
+          <a href="https://github.com/jeffersonjaily/jogos_passatempo" target="_blank" class="btn btn--primary">
+            <span>Repositório</span>
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/avatar.jpg" alt="Jefferson Félix">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Sou Jefferson Félix, estudante de Análise e Desenvolvimento de Sistemas na Anhambi Murubim. Me especializo em Python, Flask, JavaScript e criação de jogos 2D com Pygame. Desenvolvo aplicações com banco de dados, APIs e interfaces modernas.</p>
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Português nativo | Inglês técnico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/jefferson-jaily-felix/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>
+          </a>
+          <a href="assets/Curriculo_Jefferson_Felix.docx.pdf" target="_blank">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Disponível para colaborações, freelas ou oportunidades! Vamos conversar.</p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/jeffersonjaily" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/jefferson-jaily-felix/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.instagram.com/jefferson.jfelix/" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:jeffersson.jaily@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">jeffersson.jaily@gmail.com</span>
+      </button>
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2025. Desenvolvido com dedicação por Jefferson Félix. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
